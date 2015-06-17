@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_title_text"
+            android:id="@+id/info_title_textLabel"
+            android:textSize="24sp"
+            android:textIsSelectable="false" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/comic_title_textBox"
+            android:hint="@string/name_hint"
+            android:singleLine="true"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/info_freq_textLabel"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/freq_title_text"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/freq_radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/weekly_radiobutton"
+                android:text="@string/weekly_radiobutton_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <RadioButton
+                android:id="@+id/biweekly_radiobutton"
+                android:text="@string/biweekly_radiobutton_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <RadioButton
+                android:id="@+id/monthly_radiobutton"
+                android:text="@string/monthly_radiobutton_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <RadioButton
+                android:id="@+id/one_time_radiobutton"
+                android:text="@string/one_time_radiobutton_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            </RadioGroup>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/enteredDate"
+                android:text="@string/enteredDate_label"
+                android:onClick="showDatePickerDialog" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/date_text"
+                android:textSize="24sp"
+                android:layout_gravity="center"
+                android:hint="@string/date_hint"
+
+                android:singleLine="true"
+                 />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/save_Button"
+            android:text="@string/save_text"
+            android:onClick="saveComic"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

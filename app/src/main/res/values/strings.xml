@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Comic Reminder</string>
+    <string name="welcome">Welcome to Comic Reminder!</string>
+    <string name="add_button_text">Add A Comic!</string>
+    <string name="info_title_text">What is the name of the comic?</string>
+    <string name="name_hint">Enter name here</string>
+    <string name="action_settings">Settings</string>
+    <string name="reminder_info_text">Reminder Info</string>
+    <string name="view_countdown_text">Countdown</string>
+    <string name="freq_title_text">Frequency of comic?</string>
+    <string name="edit_button_text">Edit</string>
+    <string name="remove_button_text">Remove</string>
+
+    <string name="weekly_radiobutton_text">Weekly</string>
+    <string name="biweekly_radiobutton_text">Biweekly</string>
+    <string name="monthly_radiobutton_text">Monthly</string>
+    <string name="one_time_radiobutton_text">One time release</string>
+    <string name="enteredDate_label">Pick the Next Release</string>
+    <string name="save_text">Save</string>
+    <string name="date_hint">Select Date</string>
+    <string name="Jan">January</string>
+    <string name="Feb">February</string>
+    <string name="Mar">March</string>
+    <string name="Apr">April</string>
+    <string name="May">May</string>
+    <string name="Jun">June</string>
+    <string name="Jul">July</string>
+    <string name="Aug">August</string>
+    <string name="Sep">September</string>
+    <string name="Oct">October</string>
+    <string name="Nov">November</string>
+    <string name="Dec">December</string>
+
+
+</resources>
